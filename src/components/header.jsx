@@ -42,7 +42,7 @@ function Header() {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link fw-semibold" href="#testemunhas">Testemunhas</a>
+                        <a className="nav-link fw-semibold" href="#testemunhas">Avaliações</a>
                     </li>
 
                     <li className="nav-item">

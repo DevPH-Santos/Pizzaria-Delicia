@@ -17,7 +17,7 @@ function Testemunhas() {
 
         <div className="d-flex flex-column gap-4" id="testemunhas">
 
-            <h2 className="mt-5 mb-2">Testemunhas</h2>
+            <h2 className="mt-5 mb-2">Avaliações</h2>
 
             {pessoas.map((pessoa, index) =>
 
