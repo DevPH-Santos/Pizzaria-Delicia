@@ -4,17 +4,17 @@ function Menu() {
 
     const pizzas = [
 
-        { nome: "Margarita", descricao: "Classic tomato sauce, fresh mozzarella, basil", imagem: "../public/margarita.png" },
+        { nome: "Margarita", descricao: "Classic tomato sauce, fresh mozzarella, basil", imagem: "./margarita.png" },
 
-        { nome: "Pepperoni", descricao: "Pepperoni, mozzarella, molho de tomate", imagem: "../public/peperoni.png" },
+        { nome: "Pepperoni", descricao: "Pepperoni, mozzarella, molho de tomate", imagem: "./peperoni.png" },
 
-        { nome: "Hawaiana", descricao: "Presunto, abacaxi, mozzarella, molho de tomate", imagem: "../public/havaiana.png" },
+        { nome: "Hawaiana", descricao: "Presunto, abacaxi, mozzarella, molho de tomate", imagem: "./havaiana.png" },
 
-        { nome: "Vegetariana", descricao: "Legumes variados, mozzarella, molho de tomate", imagem: "../public/vegetariana.png" },
+        { nome: "Vegetariana", descricao: "Legumes variados, mozzarella, molho de tomate", imagem: "./vegetariana.png" },
 
-        { nome: "Amantes de Carne", descricao: "Pepperoni, salsicha, bacon, mozzarella, molho de tomate", imagem: "../public/amantes-carne.png" },
+        { nome: "Amantes de Carne", descricao: "Pepperoni, salsicha, bacon, mozzarella, molho de tomate", imagem: "./amantes-carne.png" },
 
-        { nome: "Frango grelhado", descricao: "Frango grelhado, molho barbecue, mussarela, cebola roxa", imagem: "../public/frango-grelhado.png" }
+        { nome: "Frango grelhado", descricao: "Frango grelhado, molho barbecue, mussarela, cebola roxa", imagem: "./frango-grelhado.png" }
 
     ];
 
