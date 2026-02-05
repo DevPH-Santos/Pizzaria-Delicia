@@ -66,7 +66,7 @@ function Form() {
 
                     <div className="d-flex flex-column gap-2 align-items-start justify-content-center form-floating">
 
-                        <input type="text" className="bg-light border-0 outlined-0 form-control" style={{ width: '300px' }} placeholder="Digite seu nome" required />
+                        <input type="text" name="nome" id="nome" className="bg-light border-0 outlined-0 form-control" style={{ width: '300px' }} placeholder="Digite seu nome" required />
                         <label htmlFor="nome" className="fw-semibold">Nome</label>
 
                     </div>
@@ -79,6 +79,8 @@ function Form() {
                             style={{ width: '300px' }}
                             placeholder="Digite seu número de celular"
                             required
+                            name="celular"
+                            id="celular"
                             value={celular}
                             onChange={(e) => setCelular(formatarCelular(e.target.value))}
                         />
@@ -94,6 +96,8 @@ function Form() {
 
                         <input
                             type="text"
+                            name="cep"
+                            id="cep"
                             className="bg-light border-0 outlined-0 form-control"
                             value={cep}
                             onChange={(e) => setCEP(handleFormatarCEP(e.target.value))}
@@ -110,6 +114,8 @@ function Form() {
 
                         <input
                             type="text"
+                            name="endereco"
+                            id="endereco"
                             className="bg-light border-0 outlined-0 form-control"
                             style={{ width: '300px' }}
                             placeholder="Digite seu endereço"
@@ -129,7 +135,7 @@ function Form() {
                     <div className="d-flex flex-column gap-2 align-items-start justify-content-center">
 
                         <label htmlFor="tamanho" className="fw-semibold">Tamanho</label>
-                        <select name="tamanho" className="form-select" style={{ width: '300px' }} id="" required>
+                        <select name="tamanho" id="tamanho" className="form-select" style={{ width: '300px' }} required>
 
                             <option defaultValue="disabled">Selecione o tamanho</option>
                             <option defaultValue="pequena">Pequena</option>
@@ -142,7 +148,7 @@ function Form() {
 
                     <div className="d-flex flex-column gap-2 align-items-start justify-content-center form-floating">
 
-                        <input min={0} type="number" className="bg-light border-0 outlined-0 form-control" style={{ width: '300px' }} placeholder="Digite a quantidade" required />
+                        <input min={0} type="number" name="quantidade" id="quantidade" className="bg-light border-0 outlined-0 form-control" style={{ width: '300px' }} placeholder="Digite a quantidade" required />
                         <label htmlFor="quantidade" className="fw-semibold">Quantidade</label>
 
                     </div>
