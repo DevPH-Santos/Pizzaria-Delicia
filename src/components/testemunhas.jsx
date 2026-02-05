@@ -5,11 +5,11 @@ function Testemunhas() {
 
     const pessoas = [
 
-        { nome: "Ana Júlia", tempo: "2 meses atrás", testemunha: "Pizza absolutamente deliciosa! A massa estava perfeitamente crocante e os ingredientes frescos e saborosos. Recomendo muito!", imagem: "./public/anajulia.png" },
+        { nome: "Ana Júlia", tempo: "2 meses atrás", testemunha: "Pizza absolutamente deliciosa! A massa estava perfeitamente crocante e os ingredientes frescos e saborosos. Recomendo muito!", imagem: "./anajulia.png" },
 
-        { nome: "Marcos", tempo: "3 meses atrás", testemunha: "A pizza estava ótima, mas a entrega demorou um pouco mais do que o esperado. Mesmo assim, o sabor compensou.", imagem: "./public/marcos.png" },
+        { nome: "Marcos", tempo: "3 meses atrás", testemunha: "A pizza estava ótima, mas a entrega demorou um pouco mais do que o esperado. Mesmo assim, o sabor compensou.", imagem: "./marcos.png" },
 
-        { nome: "Sofia", tempo: "1 semana atrás", testemunha: "A melhor pizza que já comi! Os ingredientes eram de primeira qualidade e o atendimento foi excelente. Com certeza pedirei novamente.", imagem: "./public/sofia.png" }
+        { nome: "Sofia", tempo: "1 semana atrás", testemunha: "A melhor pizza que já comi! Os ingredientes eram de primeira qualidade e o atendimento foi excelente. Com certeza pedirei novamente.", imagem: "./sofia.png" }
 
     ]
 
